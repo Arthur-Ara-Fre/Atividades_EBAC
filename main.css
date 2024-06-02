@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Anton", sans-serif;
+}
+
+.container{
+    margin: 200px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+body h1{
+    margin-left: 150px;
+}
+
+input{
+    padding: 8px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+button{
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    border: none;
+    background-color: chocolate;
+    cursor: pointer;
+    font-size: 34px;
+}
+
+button:hover{
+    background-color: green;
+}
+
+.sucesso{
+    padding: 14px;
+    background-color: green;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+    margin: auto;
+    
+} 
+
+.erro
+{
+    background-color: #ee1111;
+    padding: 14px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    display: none;
+    font-size: 18px;
+}
